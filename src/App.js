@@ -21,4 +21,13 @@ class App extends Component {
   }
 };
 
+const mapStateToProps = (state) => {
+  return { items: state.items }
+}
+
+const mapDispatchToProps = () => {
+  return {
+    increatw
+  }
+}
 export default connect()(App)
