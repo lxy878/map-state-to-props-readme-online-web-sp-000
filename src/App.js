@@ -26,8 +26,6 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = () => {
-  return {
-    increatw
-  }
+  return { increate: }
 }
 export default connect(mapStateToProps)(App)
