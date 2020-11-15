@@ -3,7 +3,7 @@ import './App.css';
 
 class App extends Component {
 
-  handleOnClick() {
+  handleOnClick = () => {
     this.props.increaseCount
   }
 
